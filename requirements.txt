@@ -1,7 +1,5 @@
 streamlit
 openai
-torch --index-url https://download.pytorch.org/whl/cpu
-torchvision 
-torchaudio
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 transformers
 
