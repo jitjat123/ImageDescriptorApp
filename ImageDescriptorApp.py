@@ -1,4 +1,4 @@
-import streamlit as st
+"""import streamlit as st
 import numpy as np
 from openai import OpenAI
 import requests
@@ -173,4 +173,4 @@ if prompt := st.chat_input("Escribe algo"):
   response = client.chat.completions.create(model="gpt-3.5-turbo", messages=st.session_state.messages)
   msg = response.choices[0].message.content
   st.session_state.messages.append({"role": "assistant", "content": msg})
-  st.chat_message("assistant").write(msg)
+  st.chat_message("assistant").write(msg)"""
