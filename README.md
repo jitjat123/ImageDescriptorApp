@@ -1,4 +1,5 @@
-#Proyecto: Descriptor de Imágenes
+##Proyecto: Descriptor de Imágenes
+
 Este proyecto utiliza Streamlit para crear una aplicación web que genera descripciones detalladas de imágenes subidas por el usuario. El sistema emplea dos modelos de aprendizaje automático: uno para la generación de descripciones de imágenes y otro para la detección de objetos.
 
 #Descripción
