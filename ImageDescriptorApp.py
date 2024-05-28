@@ -7,10 +7,7 @@ from transformers import BlipProcessor, BlipForConditionalGeneration
 
 import requests
 from PIL import Image
-from transformers import BlipProcessor
-from transformers import BlipForConditionalGeneration
-from transformers import DetrForObjectDetection
-from transformers import DetrImageProcessor
+from transformers import BlipProcessor, BlipForConditionalGeneration, DetrImageProcessor, DetrForObjectDetection
 import torch
 
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-large")
